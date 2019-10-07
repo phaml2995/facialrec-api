@@ -11,7 +11,7 @@ const image = require('./controllers/image')
 const db = knex({ //Connecting the api to the DB
 	client: 'pg',
   	connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-animate-36783',
     user : 'postgres',
     password : 'ynuyasha295',
     database : 'smart-brain'
